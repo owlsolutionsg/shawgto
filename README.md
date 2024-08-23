@@ -1,7 +1,23 @@
-# GTO Integration with Loyverse POS
-For Shaw Singapore Malls ---> GTO Integration with Loyverse POS
+# For Shaw Singapore Malls ----> GTO Integration with Loyverse POS
+Objective:
+Integrate Loyverse POS with Shaw Singapore Malls' GTO system by sending hourly sales data.
 
-Using Loyverse to hourly GTO to Shaw. At the moment, the daily total Loyverse sales figures + refund is correct. It is with the exception of the timing. Please use crontab (Linux) to run this python script. 
+Current Implementation:
 
-Please take note that in the next version, I will correct this reporting and also a streamlit portal to allow auto-upload the missing sales report.
+Sales Data Accuracy:
+The daily total sales figures from Loyverse, including refunds, are accurate.
 
+Timing Issue:
+There is currently a discrepancy in the timing of the reports being sent.
+
+Solution:
+
+Crontab Scheduling:
+Use crontab on a Linux system to schedule the execution of a Python script that sends the hourly GTO data from Loyverse POS to Shaw.
+Future Enhancements:
+
+Timing Correction:
+In the next version, the timing issue will be resolved to ensure accurate hourly reporting.
+
+Streamlit Portal:
+A Streamlit-based portal will be developed to facilitate the automatic upload of any missing sales reports.
