@@ -2,7 +2,7 @@
 Objective:
 Integrate Loyverse POS with Shaw Singapore Malls' GTO system by sending hourly sales data.
 
-Current Implementation:
+**Current Implementation:**
 
 Sales Data Accuracy:
 The daily total sales figures from Loyverse, including refunds, are accurate.
@@ -10,7 +10,7 @@ The daily total sales figures from Loyverse, including refunds, are accurate.
 Timing Issue:
 There is currently a discrepancy in the timing of the reports being sent.
 
-Solution:
+**Solution:**
 
 Crontab Scheduling:
 Use crontab on a Linux system to schedule the execution of a Python script that sends the hourly GTO data from Loyverse POS to Shaw.
