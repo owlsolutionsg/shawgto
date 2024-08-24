@@ -13,6 +13,11 @@ The daily total sales figures from Loyverse, including refunds, are accurate.
 Timing Issue:
 There is currently a discrepancy in the timing of the reports being sent.
 
+**How to Install?**
+
+STEP ONE : pip install -r requirements.txt
+STEP TWO : Please update the respective information on, API from Loyverse, SFTP login from Shaw, Local drive that you wish your sales report files to be downloaded to.
+
 **Solution:**
 
 Crontab Scheduling:
