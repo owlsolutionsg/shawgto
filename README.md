@@ -4,6 +4,9 @@ Integrate Loyverse POS with Shaw Singapore Malls' GTO system by sending hourly s
 
 **Current Implementation:**
 
+Operating System Tested:
+Ubuntu 20.04, Ubuntu 22.04, Raspberry PI 4B, Raspberry PI 5
+
 Sales Data Accuracy:
 The daily total sales figures from Loyverse, including refunds, are accurate.
 
