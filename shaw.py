@@ -5,14 +5,14 @@ from collections import defaultdict
 import paramiko
 
 # Constants
-API_TOKEN = ""
-STORE_ID = ""
+API_TOKEN = "API provided by Loyverse POS"
+STORE_ID = "Information to be provided by Shaw"
 SFTP_HOST = "pos.shawplaza.sg"
 SFTP_PORT = 22
-SFTP_USERNAME = ""
-SFTP_PASSWORD = ""
-SFTP_UPLOAD_PATH = ""
-LOCAL_SAVE_PATH = "/home/xxxx/"
+SFTP_USERNAME = "Information to be provided by Shaw"
+SFTP_PASSWORD = "Information to be provided by Shaw"
+SFTP_UPLOAD_PATH = "Information to be provided by Shaw"
+LOCAL_SAVE_PATH = "Your location directory to save the sales report"
 
 # Headers for Loyverse API
 headers = {
