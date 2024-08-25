@@ -26,7 +26,7 @@ Example : 0 23 * * * python3 shaw-v1.1.py
 
 **Future Enhancements:
 Timing Correction:
-In the next version, the timing issue will be resolved to ensure accurate hourly reporting. --> Resolved in shaw.v1.1.py
+In the next version, the timing issue will be resolved to ensure accurate hourly reporting. --> Resolved in shaw-v1.1.py
 
 Streamlit Portal:
 A Streamlit-based portal will be developed to facilitate the automatic upload of any missing sales reports.
