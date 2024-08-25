@@ -6,14 +6,14 @@ import paramiko
 import pytz
 
 # Constants
-API_TOKEN = "934d25234d9d436fb66edf3cb3160c43"
-STORE_ID = "H27000040"
+API_TOKEN = "Your Loyverse API"
+STORE_ID = "Shaw to provide"
 SFTP_HOST = "pos.shawplaza.sg"
 SFTP_PORT = 22
-SFTP_USERNAME = "27000040"
-SFTP_PASSWORD = "KTBi9vdeSshFuHgH"
+SFTP_USERNAME = "Shaw to provide"
+SFTP_PASSWORD = "Shaw to provide"
 SFTP_UPLOAD_PATH = ""
-LOCAL_SAVE_PATH = "/home/owl28/"
+LOCAL_SAVE_PATH = "directory of your local drive"
 TIMEZONE = "Asia/Singapore"  # Replace with the correct timezone
 
 # Headers for Loyverse API
