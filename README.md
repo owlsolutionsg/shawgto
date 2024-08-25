@@ -24,7 +24,7 @@ Crontab Scheduling:
 Use crontab on a Linux system to schedule the execution of a Python script that sends the hourly GTO data from Loyverse POS to Shaw. 
 Example : 0 23 * * * python3 shaw-v1.1.py
 
-**Future Enhancements:
+**Future Enhancements:**
 Timing Correction:
 In the next version, the timing issue will be resolved to ensure accurate hourly reporting. --> Resolved in shaw-v1.1.py
 
